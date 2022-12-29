@@ -48,14 +48,19 @@
 }
 @media screen and (max-width: 768px) {
   .top-nav .LinkList ul li {
-    min-width: calc(100% - 60px);
-    margin: 0;
+    min-width: 500px;
+    margin-bottom: 3px;
+    width: calc(80% - 30px);
+  }
+}
+@media screen and (max-width: 480px) {
+  .top-nav .LinkList ul li {
+    min-width: 300px;
   }
 }
 .top-nav .LinkList ul li a {
-  display: inline-block;
   text-decoration: none;
-  width: inherit;
+  width: 100%;
   flex: 1;
   padding: 10px 20px;
   border: 1px solid lightSeaGreen;
