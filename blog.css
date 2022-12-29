@@ -120,6 +120,9 @@
 .top-nav .LinkList ul a[href*="instagram.com"]::before {
   content: "";
 }
+.top-nav .LinkList ul a[href*="pinterest.jp"]::before {
+  content: "";
+}
 .top-nav .LinkList ul a[href*="clibo.tw"]::before {
   display: inline-block;
   content: "";
