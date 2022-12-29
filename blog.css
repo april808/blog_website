@@ -123,7 +123,7 @@
 .top-nav .LinkList ul a[href*="clibo.tw"]::before {
   display: inline-block;
   content: "";
-  background-image: url(https://i.imgur.com/kgOIa9U.jpg);
+  background-image: url("https://i.imgur.com/kgOIa9U.jpg");
   width: 1em;
   height: 1em;
   background-size: cover;
