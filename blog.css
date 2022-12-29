@@ -1,6 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
 * {
-    border: 1px solid black; box-sizing: border-box;
+    border: 0.5px solid black;
+	box-sizing: border-box;
 }
 
 .sidebar  img {
@@ -118,10 +120,10 @@
 .top-nav .LinkList ul a[href*="instagram.com"]::before {
   content: "";
 }
-.top-nav .LinkList ul a[href*=live]::before {
+.top-nav .LinkList ul a[href*="clibo.tw"]::before {
   display: inline-block;
   content: "";
-  background-image: url(https://april808.github.io/blog_website/assets/image/logo/MyLogo.vectornator1.svg);
+  background-image: url(https://i.imgur.com/kgOIa9U.jpg);
   width: 1em;
   height: 1em;
   background-size: cover;
