@@ -1,0 +1,134 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+.sidebar  img {
+  border-radius: 50%;
+  margin : 0 auto
+} 
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.top-nav .profile {
+  margin-bottom: 10px;
+}
+.top-nav .profile img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+.top-nav .LinkList {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+.top-nav .LinkList ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  .top-nav .LinkList ul {
+    flex-direction: column;
+  }
+}
+.top-nav .LinkList ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+@media screen and (max-width: 768px) {
+  .top-nav .LinkList ul li {
+    min-width: 500px;
+    margin-bottom: 3px;
+    width: calc(80% - 30px);
+  }
+}
+@media screen and (max-width: 480px) {
+  .top-nav .LinkList ul li {
+    min-width: 300px;
+  }
+}
+.top-nav .LinkList ul li a {
+  text-decoration: none;
+  width: 100%;
+  flex: 1;
+  padding: 10px 20px;
+  border: 1px solid lightSeaGreen;
+  background-color: rgba(32, 178, 170, 0.7);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.top-nav .LinkList ul li a i {
+  margin-right: 10px;
+}
+.top-nav .LinkList ul li a:hover {
+  background-color: white;
+  opacity: 0.9;
+  border-width: 3px;
+  color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+.top-nav .LinkList ul li a:hover::before {
+  color: lightSeaGreen;
+}
+.top-nav .LinkList ul li a:active {
+  color: yellow;
+  transform: scale(0.9);
+}
+.top-nav .LinkList ul li a::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
+.top-nav .LinkList ul a[href*="codepen.io"]::before {
+  content: "";
+}
+.top-nav .LinkList ul a[href*="github.com"]::before {
+  content: "";
+}
+.top-nav .LinkList ul a[href*="twitter.com"]::before {
+  content: "";
+}
+.top-nav .LinkList ul a[href*="facebook.com"]::before {
+  content: "";
+}
+.top-nav .LinkList ul a[href*="instagram.com"]::before {
+  content: "";
+}
+.top-nav .LinkList ul a[href*="pinterest.jp"]::before {
+  content: "";
+}
+.top-nav .LinkList ul a[href*="clibo.tw"]::before {
+  display: inline-block;
+  content: "";
+  background-image: url("https://i.imgur.com/kgOIa9U.jpg");
+  width: 1em;
+  height: 1em;
+  background-size: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+  transform: translateY(-2px);
+}
